@@ -48,6 +48,9 @@
 #### 1.The signal in text classification tasks is often contained in a few words, which may occur anywhere in the document. Thus, instead of only considering the last hidden state of the model, we need to consider representation from all states. 
 <img src='Figure/concat.png' width='500'>
 
+### 3.3.b Gradual unfreezing
+#### Rather than fine-tuning all layers at once, which risks catastrophic forgetting, it proposes to gradually unfreeze the model starting from the last layer
+
 
 
 ## 5. Resource Links
