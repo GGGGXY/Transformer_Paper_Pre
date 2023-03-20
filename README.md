@@ -39,7 +39,7 @@
 ### 3.2.b Slanted triangular learning rates
 #### 1. First linearly increases the learning rate and then linearly decays it according to the designed schedule
 #### 2. The purpose of this method is to make the model quickly converge to a suitable region of the parameter space in the begining of training and then adapt its parameters to task-specific features. 
-
+<img src='Figure/STLR.png' width='500'>
 
 
 ## 5. Resource Links
