@@ -41,6 +41,9 @@
 #### 2. The purpose of this method is to make the model quickly converge to a suitable region of the parameter space in the begining of training and then adapt its parameters to task-specific features. 
 <img src='Figure/STLR.png' width='500'>
 
+## 3.3 Stage three: Target task classifier fine-tuning
+
+
 
 ## 5. Resource Links
 #### 1. LSTM https://arxiv.org/abs/1708.02182
