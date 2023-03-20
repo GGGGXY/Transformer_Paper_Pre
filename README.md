@@ -28,3 +28,6 @@
 #### 3. The exact model is LSTM (Long Short Term Memory networks), which is a special kind of RNN
 ##### &ensp;  &ensp;  1. Capable of learning long-term dependencies
 ##### &ensp;  &ensp;  2. Overcome vanishing gradients and exploding gradients porblems.
+
+## 3.2 Stage two: Target task LM fine-tuning
+
