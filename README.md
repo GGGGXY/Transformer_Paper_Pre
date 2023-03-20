@@ -31,6 +31,11 @@
 
 ## 3.2 Stage two: Target task LM fine-tuning
 ### No matter how diverse the general-domain data used for pretraining is, the data of the target task will likely come from a different distribution. Thus, we need to fine-tune the LM on data of the target task
+### 3.2.a Discriminative fine-tuning
+#### 1. Instead of using the same learning rate for all layers of the model, discriminative fine-tuning allows us to tune each layer with different learning rates. 
+#### 2. This method is designed to address the issue that different layers capture different types of information and thus, they should be fine-tuned to different extents.
+
 
 ## 5. Resource Links
 #### 1. LSTM https://arxiv.org/abs/1708.02182
+#### 2. Different layers capture different types of information https://arxiv.org/abs/1411.1792
