@@ -26,4 +26,5 @@
 #### 1. Wikitext-103 consisting of 28595 preprocessed Wikipedia articles and 103 million words.
 #### 2. This stage only needs to be performed once and improves preformance and convergence of downstream models. 
 #### 3. The exact model is LSTM (Long Short Term Memory networks), which is a special kind of RNN
-##### 1.capable of learning long-term dependencies
+##### &ensp;  &ensp;  1. Capable of learning long-term dependencies
+##### &ensp;  &ensp;  2. Overcome vanishing gradients and exploding gradients porblems.
