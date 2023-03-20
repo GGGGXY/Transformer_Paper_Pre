@@ -51,6 +51,7 @@
 ### 3.3.b Gradual unfreezing
 #### Rather than fine-tuning all layers at once, which risks catastrophic forgetting, it proposes to gradually unfreeze the model starting from the last layer
 
+## 4.Critical Thinking
 
 
 ## 5. Resource Links
