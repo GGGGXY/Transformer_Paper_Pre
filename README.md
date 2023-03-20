@@ -42,6 +42,11 @@
 <img src='Figure/STLR.png' width='500'>
 
 ## 3.3 Stage three: Target task classifier fine-tuning
+### Augment the pretrained language model with two additional linear blocks. Each block uses batch normalization and dropout, with ReLU activations for the intermediate layer and a softmax activation that outputs a probability distribution over target classes at the last layer.
+
+### 3.3.a Concat pooling
+#### 1.The signal in text classification tasks is often contained in a few words, which may occur anywhere in the document. Thus, instead of only considering the last hidden state of the model, we need to consider representation from all states. 
+
 
 
 
