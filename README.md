@@ -10,6 +10,8 @@
 <img src='Figure/transfer_learning.png' width='500'>
 
 #### The specific logic of applying transfer learning in ULMFiT is pretraining a language model (LM) on a large general-domain corpus and fine-tunes it using the data of target task 
+#### 1. Faster only needs to adapt to the idiosyncrasies of the target data
+#### 2. Robust LM even for small datasets
 
 ## Architecture
 <img src='Figure/ULMFiT.png' width='800'>
