@@ -34,7 +34,7 @@
 ### 3.2.a Discriminative fine-tuning
 #### 1. Instead of using the same learning rate for all layers of the model, discriminative fine-tuning allows us to tune each layer with different learning rates. 
 #### 2. This method is designed to address the issue that different layers capture different types of information and thus, they should be fine-tuned to different extents.
-#### 3. <img src='Figure/discriminative.png' width='300'>
+<img src='Figure/discriminative .png' width='500'>
 
 ## 5. Resource Links
 #### 1. LSTM https://arxiv.org/abs/1708.02182
