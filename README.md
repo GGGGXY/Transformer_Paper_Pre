@@ -22,3 +22,6 @@
 ##### 3. Target task classifier fine-tuning
 
 ## 3.1 Stage one: General-domain LM pretraining
+#### In this stage, the LM is trained on a general-domain corpus to capture general features of the language.
+#### 1. Wikitext-103 consisting of 28595 preprocessed Wikipedia articles and 103 million words.
+#### 2. This stage only needs to be performed once and improves preformance and convergence of downstream models. 
