@@ -1,11 +1,11 @@
 # Universal Language Model Fine-tuning (ULMFiT) for Text Classification
 
-## Motivation 
+## 1. Motivation 
 #### Before inventing universal language model fine-tuning, existing approaches in NLP still require task-specific modifications and training from scratch
 
 #### Q1: What are the disadvantages of those approaches? (hint: time and resource)
 
-## How ULMFit solve above problems
+## 2. How ULMFit solve above problems
 #### ULMFiT is an effective transfer learning method that can be applied to any task in NLP. Transfer learning is a machine learning method where a model developed for a task is reused as the starting point for a model on a second task.
 <img src='Figure/transfer_learning.png' width='500'>
 
@@ -13,10 +13,12 @@
 ##### 1. Faster only needs to adapt to the idiosyncrasies of the target data
 ##### 2. Robust LM even for small datasets
 
-## Architecture
+## 3. Architecture
 <img src='Figure/ULMFiT.png' width='800'>
 
 #### ULMFiT consists of three stages:
 ##### 1. General-domain LM pretraining
 ##### 2. Target task LM fine-tuning
 ##### 3. Target task classifier fine-tuning
+
+## 3.1 Stage one: General-domain LM pretraining
