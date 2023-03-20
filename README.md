@@ -32,3 +32,5 @@
 ## 3.2 Stage two: Target task LM fine-tuning
 ### No matter how diverse the general-domain data used for pretraining is, the data of the target task will likely come from a different distribution. Thus, we need to fine-tune the LM on data of the target task
 
+## 5. Resource Links
+#### 1. LSTM https://arxiv.org/abs/1708.02182
