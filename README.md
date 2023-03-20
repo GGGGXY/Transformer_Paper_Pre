@@ -46,7 +46,7 @@
 
 ### 3.3.a Concat pooling
 #### 1.The signal in text classification tasks is often contained in a few words, which may occur anywhere in the document. Thus, instead of only considering the last hidden state of the model, we need to consider representation from all states. 
-
+<img src='Figure/concat.png' width='500'>
 
 
 
