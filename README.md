@@ -36,6 +36,13 @@
 #### 2. This method is designed to address the issue that different layers capture different types of information and thus, they should be fine-tuned to different extents.
 <img src='Figure/discriminative .png' width='500'>
 
+### 3.2.b Slanted triangular learning rates
+#### 1. First linearly increases the learning rate and then linearly decays it according to the designed schedule
+#### 2. The purpose of this method is to make the model quickly converge to a suitable region of the parameter space in the begining of training and then adapt its parameters to task-specific features. 
+
+
+
 ## 5. Resource Links
 #### 1. LSTM https://arxiv.org/abs/1708.02182
 #### 2. Different layers capture different types of information https://arxiv.org/abs/1411.1792
+#### 3. Slanted triangular learning rates https://ieeexplore.ieee.org/document/7926641
