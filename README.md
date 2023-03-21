@@ -52,6 +52,7 @@
 #### Rather than fine-tuning all layers at once, which risks catastrophic forgetting, it proposes to gradually unfreeze the model starting from the last layer
 
 ## 4.Critical Thinking
+<img src='Figure/ULMFiT.png' width='800'>
 
 
 ## 5. Resource Links
