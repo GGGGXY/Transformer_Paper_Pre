@@ -55,6 +55,7 @@
 <img src='Figure/ULMFiT2.png' width='800'>
 
 
+
 ## 5. Resource Links
 #### 1. LSTM https://arxiv.org/abs/1708.02182
 #### 2. Different layers capture different types of information https://arxiv.org/abs/1411.1792
