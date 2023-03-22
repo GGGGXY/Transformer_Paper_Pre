@@ -27,7 +27,9 @@
 #### 2. This stage only needs to be performed once and improves preformance and convergence of downstream models. 
 #### 3. The exact model is LSTM (Long Short Term Memory networks), which is a special kind of RNN
 ##### &ensp;  &ensp;  1. Capable of learning long-term dependencies
-##### &ensp;  &ensp;  2. Overcome vanishing gradients and exploding gradients porblems.
+##### &ensp;  &ensp;  2. Overcome vanishing gradients and exploding gradients porblems
+##### &ensp;  &ensp;  3. <ins>*John*</ins> had been practicing for the marathon for months, and on the day of the race, <ins>*his*</ins> shoes were missing, causing him to panic.
+
 
 ## 3.2 Stage two: Target task LM fine-tuning
 ### No matter how diverse the general-domain data used for pretraining is, the data of the target task will likely come from a different distribution. Thus, we need to fine-tune the LM on data of the target task
