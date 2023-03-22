@@ -51,7 +51,11 @@
 <img src='Figure/concat.png' width='500'>
 
 ### 3.3.b Gradual unfreezing
-#### Rather than fine-tuning all layers at once, which risks catastrophic forgetting, it proposes to gradually unfreeze the model starting from the last layer
+#### Rather than fine-tuning all layers at once, which risks catastrophic forgetting, it proposes to gradually unfreeze the model starting from the last layer as this contains the least general knowledge
+
+### 3.3.c Backpropagation through time (BPTT)
+#### Lan- guage models are trained with backpropagation through time (BPTT) to enable gradient propagation for large input sequences.
+
 
 ## 4.Critical Thinking
 <img src='Figure/ULMFiT2.png' width='800'>
@@ -59,6 +63,11 @@
 
 
 ## 5. Resource Links
-#### 1. LSTM https://arxiv.org/abs/1708.02182
-#### 2. Different layers capture different types of information https://arxiv.org/abs/1411.1792
-#### 3. Slanted triangular learning rates https://ieeexplore.ieee.org/document/7926641
+#### 1. [LSTM](https://arxiv.org/abs/1708.02182)
+#### 2. [Different layers capture different types of information](https://arxiv.org/abs/1411.1792)
+#### 3. [Slanted triangular learning rates](https://ieeexplore.ieee.org/document/7926641)
+#### 4. [Gradual unfreezing]([https://ieeexplore.ieee.org/document/7926641](https://arxiv.org/abs/1708.00524))
+#### 5. [Preprocessing](https://aclanthology.org/P17-1052/)
+
+
+
