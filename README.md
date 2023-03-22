@@ -54,9 +54,13 @@
 #### Rather than fine-tuning all layers at once, which risks catastrophic forgetting, it proposes to gradually unfreeze the model starting from the last layer as this contains the least general knowledge
 
 ### 3.3.c Backpropagation through time (BPTT)
-#### Lan- guage models are trained with backpropagation through time (BPTT) to enable gradient propagation for large input sequences.
+#### Language models are trained with backpropagation through time (BPTT) to enable gradient propagation for large input sequences.
 
 ## 4. Results
+#### Test Error Rate on three different text classification datasets. For all datasets, ULMFiT has the best performance
+<img src='Figure/result1.png' width='500'>
+<img src='Figure/result2.png' width='500'>
+
 
 
 ## 5.Critical Thinking
