@@ -56,15 +56,17 @@
 ### 3.3.c Backpropagation through time (BPTT)
 #### Lan- guage models are trained with backpropagation through time (BPTT) to enable gradient propagation for large input sequences.
 
+## 4. Results
 
-## 4.Critical Thinking
+
+## 5.Critical Thinking
 <img src='Figure/ULMFiT2.png' width='800'>
 
 ### Why we need two separate but similar fine tuning steps? The paper does show the benefits of LM fine tuning but is doesn't mention the reason why the second stage can improve the model behavior. If we just use one fine tuning step but use all the methods mentioned above, will it influence the model behavior?
 
 
 
-## 5. Resource Links
+## 6. Resource Links
 #### 1. [LSTM](https://arxiv.org/abs/1708.02182)
 #### 2. [Different layers capture different types of information](https://arxiv.org/abs/1411.1792)
 #### 3. [Slanted triangular learning rates](https://ieeexplore.ieee.org/document/7926641)
