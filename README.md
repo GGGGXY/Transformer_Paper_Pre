@@ -66,7 +66,7 @@
 #### 1. [LSTM](https://arxiv.org/abs/1708.02182)
 #### 2. [Different layers capture different types of information](https://arxiv.org/abs/1411.1792)
 #### 3. [Slanted triangular learning rates](https://ieeexplore.ieee.org/document/7926641)
-#### 4. [Gradual unfreezing]([https://ieeexplore.ieee.org/document/7926641](https://arxiv.org/abs/1708.00524))
+#### 4. [Gradual unfreezing](https://arxiv.org/abs/1708.00524)
 #### 5. [Preprocessing](https://aclanthology.org/P17-1052/)
 
 
