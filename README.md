@@ -64,7 +64,7 @@
 
 
 ## 5.Critical Thinking
-#### However, one potential weakness of the paper is its focus on a specific type of text classification task, namely document classification. Although this is a common and important task, there are many other types of text classification tasks that may have different requirements or challenges. 
+#### However, one potential weakness of the paper is that its focus on a specific type of text classification task, namely document classification. Although this is a common and important task, there are many other types of text classification tasks that may have different requirements or challenges. 
 
 
 ## 6. Resource Links
