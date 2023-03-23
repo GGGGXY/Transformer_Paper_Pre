@@ -64,10 +64,7 @@
 
 
 ## 5.Critical Thinking
-<img src='Figure/ULMFiT2.png' width='800'>
-
-### Why we need two separate but similar fine tuning steps? The paper does show the benefits of LM fine tuning but is doesn't mention the reason why the second stage can improve the model behavior. If we just use one fine tuning step but use all the methods mentioned above, will it influence the model behavior?
-
+#### However, one potential weakness of the paper is its focus on a specific type of text classification task, namely document classification. While this is a common and important task, there are many other types of text classification tasks that may have different requirements or challenges. 
 
 
 ## 6. Resource Links
